@@ -12,13 +12,14 @@ var subjects =
 	"JavaScript",
 	"Bad Dancing",
 	"Breaking Bad",
-	"Kawhi Leonard"
+	"Kawhi Leonard",
+	"Slip"
 ]
 
 
 var toSearch = 
 {
-	baseURL: "http://api.giphy.com/v1/gifs/search?",
+	baseURL: "https://api.giphy.com/v1/gifs/search?",
 	apiKey: "&api_key=83ae0d4a699248e4a511e87157b267f5",
 	q: "q=ben+stiller",
 	limit: "&limit=10",
